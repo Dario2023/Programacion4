@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- Mostrar en pantalla el Array mediante una Lista -->
+<ul>
+<?php  
+foreach ($arrayinformacion as $Alumnos => $Datos) 
+		{
+?>	
+		<li type="circle"> <?php echo '<h4>'.'Nro = '.$Datos['Id'].'</h4>';?></li><ul>
+	<!--<?php  
+	//foreach ($Datos as $Valores)
+    	{
+	?>
+        	<li><?php //echo 'Id = '.$Datos['Id'];break;?></li>
+    <?php 
+    	}
+	?> -->
+	<?php 
+	foreach ($Datos as $Valores)
+    	{
+	?>
+        	<li><?php echo 'Dni = '.$Datos['Dni'];break;?></li>
+    <?php 
+    	}
+	?>
+		<?php 
+	foreach ($Datos as $Valores)
+    	{
+	?>
+        	<li><?php echo 'Estado = '.$Datos['Estado'];break;?></li>
+    <?php 
+    	}
+	?>
+		<?php 
+	foreach ($Datos as $Valores)
+    	{
+	?>
+        	<li><?php echo 'Telefono = '.$Datos['Telefono'];break;?></li>
+    <?php 
+    	}
+	?>
+    	</ul>
+<?php 
+		}
+?>	
+
+</ul>
+</body>
+</html>
