@@ -161,5 +161,4 @@ $arrayalumnos = array
 	//print_r($arrayalumnos);
 	//print_r($arrayalumnos [0]['Id']['Apellido']);
 	//echo $arrayalumnos ['Id']['Apellido']['Nombre'];
-
  ?>

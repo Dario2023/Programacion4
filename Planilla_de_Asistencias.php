@@ -2,8 +2,7 @@
 <!--Llamada de los Archivos a utilizar-->
 <?php include "ArrayAlumnos.php"; ?>
 <?php include "ArrayAlumnos_info.php"; ?>
-
-
+<?php include "Actualizar Condicion.php"; ?>
  <!DOCTYPE html>
  <html>
  <head>
@@ -17,5 +16,12 @@
 <?php 	echo '<h3>'.'Punto 2-B - Motrar el Arreglo en una Lista'.'</h3>';?>
 <!--Llamada de el Archivo a utilizar-->
 <?php include "ArrayPHP to ListHTML.html"; ?>
+<?php $i= 0;
+foreach ($arrayalumnos as $key => $Value) 
+{
+	 $Value['Condicion']= $ArrayCondicion[$i];
+	$i+=1;
+	 // echo $Value['Condicion'];	
+} ?>
 </body>
 </html>

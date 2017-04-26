@@ -21,6 +21,8 @@
 	</tr>
 <!--Recorrido de la matriz multidimensional para imprimir sus datos en pantalla-->
 <?php
+include "Actualizar Condicion.php";
+$i=0;
 	foreach ($arrayalumnos as $key => $Alumnos) 
 		{
 ?>	
@@ -41,7 +43,10 @@
 			<td style="text-align: center;"><?php echo $Alumnos['Asistencia']['21/10']; ?></td>
 			<td style="text-align: center;"><?php echo $Alumnos['Asistencia']['27/10']; ?></td>			
 			<td>
-				<?php echo $Alumnos ['Condicion']; ?>
+				<?php 
+					echo $ArrayCondicion [$i]; 
+					$i++;
+				?>	
 			</td>
 		</tr>
 <?php 
