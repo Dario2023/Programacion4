@@ -23,14 +23,6 @@ include "ArrayCondicion.php";
 				else {$ArrayCondicion[] = "regular";}// <---guardo en array asistencia los regular	
 	 }
 
-/*$i= 0;
-foreach ($arrayalumnos as $key => $Value) 
-{
-	 $Value['Condicion']= $ArrayCondicion[$i];
-	$i+=1;
-}
-
- // print_r($arrayalumnos);*/
 	 // print_r($ArrayCondicion);
 
 ?>		

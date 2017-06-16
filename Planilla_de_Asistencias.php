@@ -23,5 +23,7 @@ foreach ($arrayalumnos as $key => $Value)
 	$i+=1;
 	 // echo $Value['Condicion'];	
 } ?>
+// Punto 5 Vincular los Punto 1 y 2 mediante el uso de hipervinculos y el uso de la variable global $_GET.
+<a href=""></a>
 </body>
 </html>

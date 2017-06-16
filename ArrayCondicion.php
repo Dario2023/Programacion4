@@ -1,5 +1,5 @@
 <?php 
-echo '<h3>'.'Punto 3-A - Arreglo Asociativo Condicion Alumnos'.'</h3>';
+// echo '<h3>'.'Punto 3-A - Arreglo Asociativo Condicion Alumnos'.'</h3>';
 $arrayalumnocondicion = array
 (
 	array('Id' => 10,
@@ -63,5 +63,5 @@ $arrayalumnocondicion = array
 		  'Recuperatorio' => 4
 		  ),
 );
-//print_r($arrayalumnocondicion);
+// print_r($arrayalumnocondicion);
 ?>

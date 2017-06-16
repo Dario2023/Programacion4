@@ -64,7 +64,7 @@ $arrayinformacion = array
 		  ),
 );
 
-//print_r($arrayinformacion)
+// print_r($arrayinformacion)
 /*echo '<ul>';
 foreach ($arrayinformacion as $Alumnos => $Datos)
 {
